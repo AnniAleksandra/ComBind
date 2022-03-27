@@ -28,7 +28,7 @@ Rscript ./CODE/Train_ComBind.R DATASET_NAMES_IN_DNA_FOLDER TF1_NAME TF2_NAME
 NOTE: Make sure that 'PWM_HT-SELEX' folder include TF1_NAME and TF2_NAME PWMs
 
 ###### Example for Alx4-Tbx21 using a subset of CAP-SELEX DNA sequences:
-Rscript ./CODE/Train_ComBind.R ALX4_TBX21_3_AAD_TGGCAC40NAAG_SUBSET ALX4 TBX21
+Rscript ./CODE/Train_ComBind.R ALX4_TBX21_SUBSET ALX4 TBX21
 
 ## Test ComBind
 ##### Place test set DNA
@@ -44,5 +44,5 @@ Place sequences you wish to test with ComBind to: DNA/SCORE-DNA/
 Rscript ./CODE/Test_ComBind.R TESTSET_NAME_IN_DNA_FOLDER RF_NAMES_IN_RF_FOLDER_WITHOUT_RF_NUMBER_PREFIXES
 
 ###### Example for Alx4-Tbx21 using a subset of CAP-SELEX DNA sequences:
-Rscript ./CODE/Test_ComBind.R ALX4_TBX21_3_AAD_TGGCAC40NAAG ALX4_TBX21_3_AAD_TGGCAC40NAAG_SUBSET
+Rscript ./CODE/Test_ComBind.R ALX4_TBX21 ALX4_TBX21_SUBSET
 
