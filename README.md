@@ -39,7 +39,7 @@ Place sequences you wish to test with ComBind to: DNA/SCORE-DNA/
 3. All test sequences must have the same length
 4. Test sequences should not entail ambigious letters (only "A", "T", "C" and "G" are allowed)
 
-##### 4. Test ComBind
+##### Test ComBind
 ###### Run from the command line in ComBind folder:
 Rscript ./CODE/Test_ComBind.R TESTSET_NAME_IN_DNA_FOLDER RF_NAMES_IN_RF_FOLDER_WITHOUT_RF_NUMBER_PREFIXES
 
