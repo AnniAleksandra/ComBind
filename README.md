@@ -8,6 +8,9 @@ Required R-packages: ShortRead, randomForest, reshape2, pROC
 #### Download package
 ComBind.zip
 
+#### Ready trained random forests
+https://drive.google.com/drive/folders/1r78j_PLeG91CSYB0F3B3ildL5s1odJ1M 
+
 ## Train ComBind
 ##### Place training set DNA
 Place positive training sequences to: DNA/CAP-SELEX-Positive-Training/
