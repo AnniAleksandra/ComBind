@@ -9,7 +9,8 @@ Required R-packages: ShortRead, randomForest, reshape2, pROC
 ComBind.zip
 
 #### Ready trained random forests
-Trained with 75% of CAP-SELEX sequences, negative set made by sequence shuffling with dinucleotide count preservation
+Trained with 75% of CAP-SELEX sequences, negative set constructed by sequence shuffling
+
 https://drive.google.com/drive/folders/1r78j_PLeG91CSYB0F3B3ildL5s1odJ1M 
 
 ## Train ComBind
