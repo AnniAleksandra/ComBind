@@ -5,9 +5,6 @@ R software version > 3.5.2
 
 Required R-packages: ShortRead, randomForest, reshape2, pROC
 
-#### Download package
-ComBind.zip
-
 #### Ready trained random forests
 Trained with 75% of CAP-SELEX sequences, negative set constructed by sequence shuffling
 
