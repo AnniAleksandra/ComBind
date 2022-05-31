@@ -43,8 +43,8 @@ test_all_sites <- function(sequence, reverse_sequence, rf, l){
     colnames(s1) <- c(1:l)
     colnames(s2) <- c(1:l)
     
-    s1[] <- lapply(s1, factor)
-    s2[] <- lapply(s2, factor)
+    s1[] <- lapply(s1, factor, levels=c("A", "T", "G", "C"))
+    s2[] <- lapply(s2, factor, levels=c("A", "T", "G", "C"))
     
     pp1 <- predict(rf, newdata = s1, type = 'prob')[, 2]
     pp2 <- predict(rf, newdata = s2, type = 'prob')[, 2]
