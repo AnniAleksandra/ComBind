@@ -1,11 +1,8 @@
 PWM Source:
 
 Alx4: Jolma 2013
-
 Arntl: Jolma 2013
-
 Atf4: Jolma 2013
-
 Bhlha15: Jolma 2013
 Cebpb: Jolma 2013
 Cebpd: Jolma 2013
