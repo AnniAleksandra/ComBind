@@ -20,7 +20,7 @@ Place negative training sequences to: DNA/CAP-SELEX-Negative-Training/
 2. Ideally, positive and negative data sets in training should be balanced in size
 3. Format: fasta.gz
 4. Sequence length is at least 25 nucleic acids, preferably 40 nucleic acids, while upper limit is not defined
-5. All sequences should have the same length
+5. All sequences must have the same length
 6. Sequences with ambigious letters/nucleotides are removed from random forest training
 
 ##### Train ComBind
